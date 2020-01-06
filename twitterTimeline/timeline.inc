@@ -10,7 +10,16 @@ use Abraham\TwitterOAuth\TwitterOAuth;
  *
  * This code utilises the TwitterOAuth library to make requests to the Twitter
  * API. The settings for the user are all here - could we utilise the
- * theme settings to make this easier to configure? Can we fil
+ * theme settings to make this easier to configure? 
+ * 
+ * TODO: This shouldn't be a preprocess block.
+ * 
+ * FIXME: This should be created as a new block type, with the content of the 
+ * block outputted like this. Maybe add configuration for the individual block
+ * to be able to output various different timelines?
+ * 
+ * So the general question is ...
+ * 
  */
 function p1base_preprocess_block__tweetslist(&$variables) {
 
